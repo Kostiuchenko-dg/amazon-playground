@@ -1,3 +1,5 @@
-template-file-path: 2-first-hands-on/1-creating-s3-bucket.yaml
+template-file-path:
+  - 2-first-hands-on/1-creating-s3-bucket.yaml
+  - 1-introduction/0-just-ec2.yaml
 parameters: {}
 tags: {}
