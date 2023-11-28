@@ -1,0 +1,5 @@
+template-file-path: 1-introduction/0-just-ec2.yaml
+parameters: {}
+tags:
+    env: test
+    created_by: cloudformation
