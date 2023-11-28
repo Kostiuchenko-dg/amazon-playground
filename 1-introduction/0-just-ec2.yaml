@@ -5,8 +5,8 @@ Resources:
       ImageId: ami-0ff1c68c6e837b183
       InstanceType: t2.micro
 
-  # # an elastic IP for our instance
-  # MyEIP:
-  #   Type: AWS::EC2::EIP
-  #   Properties:
-  #     InstanceId: !Ref MyInstance
+  # an elastic IP for our instance
+  MyEIP:
+    Type: AWS::EC2::EIP
+    Properties:
+      InstanceId: !Ref MyInstance
